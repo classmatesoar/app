@@ -1,5 +1,5 @@
 define(['jquery', 'routes', 'public', 'layer', 'bootstrap', 'director'], function($, routes) {
-	$('document').ready(function() {
+	$(document).ready(function() {
 		layer.config({
 			path: 'static/plugin/layer/'
 		});
